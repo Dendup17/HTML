@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <body>
+            <form action="forms.html" method="post" target="_blank">
+            <fieldset>
+                <legend>Bio</legend>
+                <h2>Text input fields </h2>
+                <label for="uname">Username: </label> <br>
+                <input type="text" id="uname" name="user_name"> <br><br>
+                <label for="mail">Email: </label> <br>
+                <input type="email" id="mail" name="email_id"> <br><br>
+                <label for="pwd">Password: </label> <br>
+                <input type="password" id="pwd" name="password"> <br><br>
+            </fieldset>
+
+            <h2>Radio Buttons </h2>
+            <p>What programming language are you currently using? </p>
+            <input type="radio" id="css" name="language" value="CSS">
+            <label for="css">CSS </label> <br>
+            <input type="radio" id="html" name="language" value="HTML">
+            <label for="html">HTML </label> <br>
+            <input type="radio" id="js" name="language" value="JS">
+            <label for="js">JS </label> <br>
+
+            <h2>Checkboxes </h2>
+            <p>Your favourite tutor(s)? </p>
+            <input type="checkbox" id="ty" name="tutor1" value="tyangchen" checked>
+            <label for="ty">Tashi Yangchen </label> <br>
+            <input type="checkbox" id="tw" name="tutor2" value="twangchuk">
+            <label for="tw">Tashi Wangchuk </label> <br>
+            <input type="checkbox" id="td" name="tutor3" value="tdhendup">
+            <label for="td">Tshewang Dhendup </label> <br>
+
+            <br><br>
+            <h2>Uploading a File </h2>
+            <label for="assignment">Upload assignment: </label>
+            <input type="file" id="assignment" name="assignment1">
+            <label for="submission">Submission date: </label>
+            <input type="date" id="submission" name="sub_date">
+
+            <br><br>
+            <h2>Select Element </h2>
+            <label for="dzg">Choose a dzongkhag: </label>
+            <select name="dzongkhag" id="dzg" size="4">
+                <option value="thimphu">Thimphu </option>
+                <option value="paro">Paro </option>
+                <option value="sj" selected>Samdrup Jongkhar </option>
+                <option value="tgang">Trashigang </option>
+            </select>
+            
+            <br><br>
+            <h2>Textarea Element </h2>
+            <label for="comment">Comment: </label>
+            <textarea id="comment" name="fb_comment" cols="50" rows="5">Type your comment here...</textarea>
+
+            <br><br> <input type="Submit">
+        </form>
+    </body>
+</html>
